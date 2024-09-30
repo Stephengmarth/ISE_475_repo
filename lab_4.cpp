@@ -89,6 +89,7 @@ cout<<"\n";
     cout<<"This is the updated car1."<<endl;
     car1.display();
     
+system("pause");
 return 0;    
 }
   

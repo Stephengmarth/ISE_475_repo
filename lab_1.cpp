@@ -11,10 +11,10 @@
 
 int main() {
     int age; // declare age as int
-    std::string name; // declare name as string 
-    
+std::string name;
+
     std::cout<< "Enter your name: "; //printed line asking for name 
-    std::cin>> name; // user input called name 
+    std::getline(std::cin, name); // user input called name 
     
     std::cout<< "enter your age:"; // printed line asking for age 
     std::cin>> age; // user input called age 
